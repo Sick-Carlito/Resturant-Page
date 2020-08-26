@@ -1,14 +1,32 @@
 import _ from 'lodash';
+import './style.css';
+import {homePage} from "./landing";
+import {nav} from "./navControl";
 
-function component() {
-    const element = document.createElement('div');
+
+
+
+const displayController = (()=>{
+   
+    let content = document.querySelector("#content");
     
-
- 
-    // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.innerHTML = ("Niaje morio!!")
+    const render = ()=>{
     
-    return element;
-  }
+        nav.render(content);
+       
 
-  document.body.appendChild(component());
+        homePage.render(content);
+        
+       
+
+        
+
+    }
+   
+   return {
+       render
+   }
+    
+})();
+
+displayController.render();

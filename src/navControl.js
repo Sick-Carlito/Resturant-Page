@@ -17,7 +17,7 @@ const nav = (()=>{
         navContent.classList.add("navbar","navbar-inverse");
 
         navHeading.classList.toggle("navbar-text")
-        navHeading.textContent = "Carlitos";
+        navHeading.textContent = "Carlitos' Resturant";
         navContent.appendChild(navHeading);
 
         
@@ -50,17 +50,24 @@ const nav = (()=>{
         homeBut.addEventListener('click',()=>{
             homeBut.classList.add("btn-warning");
             menuBut.classList.remove("btn-warning");
+            contactBut.classList.remove("btn-warning");
         });
 
         menuBut.addEventListener('click',()=>{
             menuBut.classList.add("btn-warning");
             homeBut.classList.remove("btn-warning");
+            contactBut.classList.remove("btn-warning");
+        });
+
+        contactBut.addEventListener('click',()=>{
+            contactBut.classList.add("btn-warning");
+            homeBut.classList.remove("btn-warning");
+            menuBut.classList.remove("btn-warning");
         });
 
 
-    } 
 
-    
+    }
 
     return {render}
 

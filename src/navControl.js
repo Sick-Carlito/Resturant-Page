@@ -45,7 +45,17 @@ const nav = (()=>{
 
 
 
-        //action listeners:
+     //   action listeners:
+
+        homeBut.addEventListener('click',()=>{
+            homeBut.classList.add("btn-warning");
+            menuBut.classList.remove("btn-warning");
+        });
+
+        menuBut.addEventListener('click',()=>{
+            menuBut.classList.add("btn-warning");
+            homeBut.classList.remove("btn-warning");
+        });
 
 
     } 

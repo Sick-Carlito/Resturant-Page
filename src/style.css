@@ -19,6 +19,7 @@ body, html {
   font-size: 60px;
   line-height: 1.1;
   color: white;
+
 }
 
 .homeheading1 {
@@ -37,4 +38,61 @@ body, html {
   font-size: 40px;
   line-height: 1.1;
   color: white;
+}
+
+.menuBackground {
+  background-color: white;
+  opacity: 0.65;
+  height: 500px;
+  width: 80%;
+  font-weight: 1700;
+  
+}
+
+.bgFonts {
+  
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  line-height: 1.1;
+  color: black;
+  font-weight: 700;
+
+
+}
+
+.starterFonts {
+
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  line-height: 1.1;
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.starterFonts1 {
+
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+  line-height: 1.1;
+  color: black;
+  font-weight: 700;
+  
+}
+
+.positions {
+  position:relative; left:400px; top:-32px;
+}
+
+
+.positions1 {
+  position:relative; left:400px; top:-100px;
+}
+
+.positions2 {
+  position:relative; left:800px; top:-64px;
+}
+
+.positions3 {
+  position:relative; left:750px; top:-200px;
 }

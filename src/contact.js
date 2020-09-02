@@ -27,14 +27,14 @@ const contact = (()=>{
         contactsText1.classList.add("homeheading");
         contactsText2.textContent = "+254 704 965 601"
         contactsText2.classList.add("homeheading");
-        contactContent.appendChild(contactsText);
-        contactContent.appendChild(contactsText1);
-        contactContent.appendChild(contactsText2);
-        contactDiv.appendChild(contactContent);
+        contactDiv.appendChild(contactsText);
+        contactDiv.appendChild(contactsText1);
+        contactDiv.appendChild(contactsText2);
+        
 
 
 
-        content.appendChild(contactContent);
+        content.appendChild(contactDiv);
     }
 
     const remove = (content)=>{

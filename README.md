@@ -37,14 +37,10 @@ Now, open the index.html file in your browser.
 
 ![Alt image](https://github.com/Sick-Carlito/Resturant-Page/blob/feature-1/src/images/img1.png)
 
-```
-You can edit or delete your posts
-```
+
 ![Alt image](https://github.com/Sick-Carlito/Resturant-Page/blob/feature-1/src/images/img2.png)
 
-```
-You can see another users profile information 
-```
+
 ![Alt image](https://github.com/Sick-Carlito/Resturant-Page/blob/feature-1/src/images/img3.png)
 
 

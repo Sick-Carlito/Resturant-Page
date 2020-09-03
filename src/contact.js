@@ -30,6 +30,7 @@ const contact = (()=>{
         contactDiv.appendChild(contactsText);
         contactDiv.appendChild(contactsText1);
         contactDiv.appendChild(contactsText2);
+        contactContent.appendChild(contactDiv);
         
 
 
@@ -38,7 +39,7 @@ const contact = (()=>{
     }
 
     const remove = (content)=>{
-        content.removeChild(contactContent);
+        content.removeChild(contactDiv);
     }
 
     return{

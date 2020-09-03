@@ -35,23 +35,17 @@ npx webpack
 
 Now, open the index.html file in your browser.
 
-![Alt image](https://github.com/Sick-Carlito/Twitter-Redesign/blob/readme/app/assets/images/image3.png)
+![Alt image](https://github.com/Sick-Carlito/Resturant-Page/blob/feature-1/src/images/img1.png)
 
 ```
 You can edit or delete your posts
 ```
-![Alt image](https://github.com/Sick-Carlito/Twitter-Redesign/blob/readme/app/assets/images/image5.png)
+![Alt image](https://github.com/Sick-Carlito/Resturant-Page/blob/feature-1/src/images/img2.png)
 
 ```
 You can see another users profile information 
 ```
-![Alt image](https://github.com/Sick-Carlito/Twitter-Redesign/blob/readme/app/assets/images/image4.png)
-
-### Potential future features
-
-* Abbility to see trending topics
-* Abbility for users to add cover image
-
+![Alt image](https://github.com/Sick-Carlito/Resturant-Page/blob/feature-1/src/images/img3.png)
 
 
 
@@ -69,6 +63,6 @@ You can see another users profile information
 
 ## Live version
 
-- [Link](https://young-fortress-46435.herokuapp.com/users/sign_in)
+- [Link](https://raw.githack.com/Sick-Carlito/Resturant-Page/feature-1/dist/index.html)
 
 

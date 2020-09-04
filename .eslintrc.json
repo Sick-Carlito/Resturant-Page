@@ -20,7 +20,7 @@
         "no-control-regex": "off",
         "no-fallthrough": "off",
         "no-sparse-arrays": "off"
-    }
+    },
      "globals": {
        "require": true,
        "module": true,

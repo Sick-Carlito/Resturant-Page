@@ -16,6 +16,9 @@
         "no-console": 0,
         "no-unused-vars": 0,
         "no-cond-assign": "off",
-        "no-empty": "off"
+        "no-empty": "off",
+        "no-control-regex": "off",
+        "no-fallthrough": "off",
+        "no-sparse-arrays": "off"
     }
 }

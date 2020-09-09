@@ -1,4 +1,4 @@
-# Resturant-Page
+# Restaurant-Page
 A simple web app to dislay a resturant page using HTML, JavaScript and Webpack.
 
 
@@ -31,6 +31,11 @@ Note: If you don't have it yet, you need to install webpack
 in your root directory and run the following command.
 ```
 npx webpack
+```
+and
+
+```
+npm i for installing the dependencies.
 ```
 
 Now, open the index.html file in your browser.

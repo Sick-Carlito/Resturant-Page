@@ -10,7 +10,7 @@ const homePage = (()=> {
         homeContent.classList.add("container-fluid","text-center");
         homeHeading.textContent = "Welcome to"
         homeHeading.classList.add("homeheading");
-        homeHeading1.textContent = "CARLITOS' RESTURANT"
+        homeHeading1.textContent = "CARLITOS' RESTAURANT"
         homeHeading1.classList.add("homeheading1");
         homeHeading2.textContent = "Chakula za kinyumbani, kare!!!"
         homeHeading2.classList.add("homeheading2");

@@ -1,0 +1,92 @@
+body,
+html {
+  height: 100%;
+  background-image: url("./images/img.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.homeheading {
+  margin-top: 90px;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  line-height: 1.1;
+  color: white;
+}
+
+.homeheading1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.1;
+  color: white;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+.homeheading2 {
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  line-height: 1.1;
+  color: white;
+}
+
+.menuBackground {
+  background-color: white;
+  opacity: 0.65;
+  height: 500px;
+  width: 900px;
+  font-weight: 1700;
+}
+
+.bgFonts {
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  line-height: 1.1;
+  color: black;
+  font-weight: 700;
+}
+
+.starterFonts {
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  line-height: 1.1;
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.starterFonts1 {
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+  line-height: 1.1;
+  color: black;
+  font-weight: 700;
+}
+
+.positions {
+  position: relative;
+  padding-left: 400px;
+  top: -32px;
+}
+
+.positions1 {
+  position: relative;
+  padding-left: 400px;
+  top: -100px;
+}
+
+.positions2 {
+  position: relative;
+  padding-left: 700px;
+  top: -64px;
+}
+
+.positions3 {
+  position: relative;
+  padding-left: 700px;
+  top: -200px;
+}

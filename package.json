@@ -1,0 +1,30 @@
+{
+  "name": "Resturant-Page",
+  "version": "1.0.0",
+  "description": "A simple web app to dislay a resturant page using HTML, JavaScript and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sick-Carlito/Resturant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sick-Carlito/Resturant-Page/issues"
+  },
+  "homepage": "https://github.com/Sick-Carlito/Resturant-Page#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

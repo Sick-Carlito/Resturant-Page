@@ -12,6 +12,18 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "rules": {
-    }
+    "rules": {  
+        "no-console": 0,
+        "no-unused-vars": 0,
+        "no-cond-assign": "off",
+        "no-empty": "off",
+        "no-control-regex": "off",
+        "no-fallthrough": "off",
+        "no-sparse-arrays": "off"
+    },
+     "globals": {
+       "require": true,
+       "module": true,
+       "__dirname": true
+     }
 }

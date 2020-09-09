@@ -5,9 +5,6 @@ import {nav} from "./navControl";
 import {menu} from "./menu"
 import {contact} from "./contact"
 
-
-
-
 const displayController = (()=>{
    
     let content = document.querySelector("#content");
@@ -26,39 +23,28 @@ const displayController = (()=>{
           menu.render(content);
           menu.remove(content);
           contact.render(content);
-          contact.remove(content);
-          
+          contact.remove(content);  
         });
 
         menuButton.addEventListener('click', () => {
-          
           menu.render(content);
           homePage.render(content);
           homePage.remove(content);
           contact.render(content);
           contact.remove(content);
-
         });
 
-          contactButton.addEventListener('click',()=>{
-            homePage.render(content);
-            menu.render(content);
-            contact.render(content);
-            homePage.remove(content);
-            menu.remove(content);
-
+        contactButton.addEventListener('click',()=>{
+          homePage.render(content);
+          menu.render(content);
+          contact.render(content);
+          homePage.remove(content);
+          menu.remove(content);
         });
-        
-       
-
-        
-
-    }
-   
+       }
    return {
        render
    }
-    
 })();
 
 displayController.render();

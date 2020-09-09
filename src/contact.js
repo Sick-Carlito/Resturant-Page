@@ -1,9 +1,5 @@
-
-
-
 const contact = (()=>{
     
-
     let contactContent = document.createElement('div');
     let contactHeading = document.createElement('h2');
 
@@ -32,9 +28,6 @@ const contact = (()=>{
         contactDiv.appendChild(contactsText2);
         contactContent.appendChild(contactDiv);
         
-
-
-
         content.appendChild(contactDiv);
     }
 
@@ -45,8 +38,6 @@ const contact = (()=>{
     return{
         render,remove
     }
-
-
 })();
 
 export {contact}

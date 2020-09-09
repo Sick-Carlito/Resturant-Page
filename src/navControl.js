@@ -1,26 +1,19 @@
-
-
 const nav = (()=>{
 
     let navContent = document.createElement('nav');
     let navHeading = document.createElement('h1');
 
-    //let navList = document.createElement('ul');
     let buttonDiv = document.createElement('div')
     let homeBut = document.createElement('button');
     let menuBut = document.createElement('button');
     let contactBut = document.createElement('button')
     
-    
-
     const render = (content)=>{
-        navContent.classList.add("navbar","navbar-inverse");
 
+        navContent.classList.add("navbar","navbar-inverse");
         navHeading.classList.toggle("navbar-text")
         navHeading.textContent = "Carlitos' Resturant";
         navContent.appendChild(navHeading);
-
-        
 
         homeBut.classList.add("btn","btn-warning","navbar-btn","rounded-0")
         homeBut.textContent = "Home";
@@ -43,8 +36,6 @@ const nav = (()=>{
 
         content.appendChild(navContent);
 
-
-
      //   action listeners:
 
         homeBut.addEventListener('click',()=>{
@@ -64,13 +55,9 @@ const nav = (()=>{
             homeBut.classList.remove("btn-warning");
             menuBut.classList.remove("btn-warning");
         });
-
-
-
     }
 
     return {render}
-
 })();
 
 export {nav}

@@ -12,11 +12,9 @@ const menu = (()=>{
     let breakFastHeading2 = document.createElement('h4');
     let breakFastHeading3 = document.createElement('h4');
 
-    
     let startersDiv1 = document.createElement('div');
     let starterHeading1 = document.createElement('h4');
 
-    
     let breakFastHeading4 = document.createElement('h4');
     let breakFastHeading5 = document.createElement('h4');
     let breakFastHeading6 = document.createElement('h4');
@@ -25,19 +23,17 @@ const menu = (()=>{
     let startersDiv3 = document.createElement('div');
     let starterHeading3 = document.createElement('h4');
 
-    
     let breakFastHeading8 = document.createElement('h4');
     let breakFastHeading9 = document.createElement('h4');
     let breakFastHeading10 = document.createElement('h4');
     let breakFastHeading11 = document.createElement('h4');
     
-    
     const render = (content)=>{
         menuContent.classList.add("container-fluid");
-        menuContent.classList.add("menuBackground")
+        menuContent.classList.add("menuBackground");
 
         menuHeading.textContent = "Menu";
-        menuHeading.classList.add("text-center")
+        menuHeading.classList.add("text-center");
         menuHeading.classList.add("bgFonts")
         menuContent.appendChild(menuHeading);
 
@@ -67,7 +63,6 @@ const menu = (()=>{
         startersDiv1.appendChild(starterHeading1);
         menuContent.appendChild(startersDiv1);
 
-
         breakFastHeading4.textContent = "2. lunch....$10000";
         breakFastHeading5.textContent = "2. lunch....$10000";
         breakFastHeading6.textContent = "2. lunch....$10000";
@@ -92,7 +87,6 @@ const menu = (()=>{
 
         startersDiv3.appendChild(starterHeading3);
         menuContent.appendChild(startersDiv3);
-
 
         breakFastHeading8.textContent = "3. dinner....$10000";
         breakFastHeading9.textContent = "3. dinner....$10000";
@@ -122,7 +116,6 @@ const menu = (()=>{
     return{
         render, remove
     }
-
 })();
 
 export {menu}

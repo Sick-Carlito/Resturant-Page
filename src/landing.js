@@ -1,15 +1,11 @@
-
-
 const homePage = (()=> {
     
     let homeContent = document.createElement('div');
     let homeHeading = document.createElement('h4');
     let homeHeading1 = document.createElement('h5');
     let homeHeading2 = document.createElement('h4');
-   
 
     const render = (content)=>{
-
 
         homeContent.classList.add("container-fluid","text-center");
         homeHeading.textContent = "Welcome to"
@@ -22,9 +18,6 @@ const homePage = (()=> {
         homeContent.appendChild(homeHeading1);
         homeContent.appendChild(homeHeading2);
 
-  
-
-
         content.appendChild(homeContent);
     }
 
@@ -35,7 +28,6 @@ const homePage = (()=> {
     return {
         render,remove
     }
-
 })();
 
 export {homePage}
